@@ -1,0 +1,50 @@
+screen:
+  name: "EMCSelectionSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - widget:
+        font: "FdLcD;45"
+        halign: "center"
+        position: "0,0"
+        render: "Label"
+        size: "$screen_width,$screen_height-70"
+        source: "parent.Service"
+        transparent: "1"
+        valign: "center"
+        zPosition: "2"
+        children:
+          - convert:
+              type: "ServiceName"
+              text: "Name"
+    - widget:
+        font: "FdLcD;60"
+        halign: "left"
+        position: "0,$screen_height-70"
+        render: "Label"
+        size: "300,70"
+        source: "parent.Service"
+        transparent: "1"
+        valign: "center"
+        children:
+          - convert:
+              type: "COCMovieInfo"
+              text: "FileSize"
+    - widget:
+        font: "FdLcD;60"
+        halign: "right"
+        position: "300,$screen_height-70"
+        render: "Label"
+        size: "96,70"
+        source: "parent.Service"
+        transparent: "1"
+        valign: "center"
+        children:
+          - convert:
+              type: "COCMovieInfo"
+              text: "MovieDuration"
+          - convert:
+              type: "ClockToText"
+              text: "InMinutes"

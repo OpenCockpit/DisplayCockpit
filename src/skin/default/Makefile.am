@@ -1,3 +1,2 @@
 ﻿installdir = /usr/share/enigma2/display/DisplayCockpit
-SUBDIRS = images default
-install_DATA = *.png
+install_DATA = skin_display.xml *.png

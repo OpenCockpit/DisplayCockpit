@@ -1,0 +1,27 @@
+screen:
+  name: "NumberZapSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - widget:
+        font: "FdLcD;55"
+        halign: "center"
+        position: "0,0"
+        render: "Label"
+        size: "$screen_width,65"
+        source: "parent.servicename_summary"
+        transparent: "1"
+        valign: "center"
+        zPosition: "2"
+    - widget:
+        font: "FdLcD;80"
+        halign: "center"
+        position: "0,65"
+        render: "Label"
+        size: "$screen_width,$screen_height-65"
+        source: "parent.number_summary"
+        transparent: "1"
+        valign: "center"
+        zPosition: "2"

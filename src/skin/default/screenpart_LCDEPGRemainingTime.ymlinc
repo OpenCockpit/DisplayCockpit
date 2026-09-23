@@ -1,0 +1,32 @@
+- widget:
+    font: "FdLcD;60"
+    halign: "left"
+    position: "0,$screen_height-70"
+    render: "Label"
+    size: "198,70"
+    source: "parent.Event"
+    transparent: "1"
+    valign: "center"
+    children:
+      - convert:
+          type: "EventTime"
+          text: "StartTime"
+      - convert:
+          type: "ClockToText"
+          text: "Format:%H:%M"
+- widget:
+    font: "FdLcD;60"
+    halign: "right"
+    position: "198,$screen_height-70"
+    render: "Label"
+    size: "197,70"
+    source: "parent.Event"
+    transparent: "1"
+    valign: "center"
+    children:
+      - convert:
+          type: "EventTime"
+          text: "Remaining"
+      - convert:
+          type: "RemainingToText"
+          text: "VFDOnlyMinutes"

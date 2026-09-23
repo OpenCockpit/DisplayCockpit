@@ -1,0 +1,11 @@
+- xmlinc:
+    file: "screenpart_LCDBackground.ymlinc"
+- xmlinc:
+    file: "screenpart_LCDTitle.ymlinc"
+- widget:
+    font: "FdLcDLight;45"
+    position: "0,65"
+    render: "Label"
+    size: "$screen_width,175"
+    source: "parent.summary_description"
+    transparent: "1"

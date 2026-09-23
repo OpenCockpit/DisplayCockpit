@@ -1,0 +1,14 @@
+- widget:
+    font: "FdLcD;55"
+    halign: "center"
+    position: "0,0"
+    render: "Label"
+    size: "$screen_width,130"
+    source: "parent.Service"
+    transparent: "1"
+    valign: "center"
+    zPosition: "2"
+    children:
+      - convert:
+          type: "ServiceName"
+          text: "Name"

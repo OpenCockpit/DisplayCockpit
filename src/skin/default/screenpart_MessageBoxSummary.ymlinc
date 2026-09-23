@@ -1,0 +1,26 @@
+screen:
+  name: "MessageBoxSummary"
+  position: "fill"
+  resolution: "396,240"
+  children:
+    - xmlinc:
+        file: "screenpart_LCDBackground.ymlinc"
+    - widget:
+        font: "FdLcD;55"
+        halign: "center"
+        position: "0,0"
+        render: "Label"
+        size: "$screen_width,180"
+        source: "parent.Text"
+        transparent: "1"
+        valign: "center"
+        zPosition: "2"
+    - widget:
+        font: "FdLcDLight;40"
+        halign: "center"
+        position: "0,180"
+        render: "Label"
+        size: "$screen_width,60"
+        source: "parent.selectedChoice"
+        transparent: "1"
+        zPosition: "2"
