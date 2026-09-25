@@ -8,7 +8,7 @@ screen:
     - xmlinc:
         file: "screenpart_LCDTitle.ymlinc"
     - widget:
-        font: "FdLcDLight;45"
+        font: "$F_medium"
         halign: "center"
         position: "0,65"
         render: "Label"

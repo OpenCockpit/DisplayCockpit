@@ -17,7 +17,7 @@ screen:
         valign: "center"
         zPosition: "2"
     - widget:
-        font: "FdLcDLight;45"
+        font: "$F_medium"
         halign: "center"
         noWrap: "1"
         position: "0,65"
@@ -27,7 +27,7 @@ screen:
         transparent: "1"
         zPosition: "2"
     - widget:
-        font: "FdLcDLight;40"
+        font: "$F_small"
         halign: "center"
         noWrap: "1"
         position: "0,180"

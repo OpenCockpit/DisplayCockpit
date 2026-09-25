@@ -16,7 +16,7 @@ screen:
         valign: "center"
         zPosition: "2"
     - widget:
-        font: "FdLcDLight;40"
+        font: "$F_small"
         halign: "center"
         position: "0,180"
         render: "Label"

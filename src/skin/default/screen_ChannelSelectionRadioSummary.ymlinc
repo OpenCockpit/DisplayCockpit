@@ -6,7 +6,7 @@ screen:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
     - widget:
-        font: "FdLcDLight;45"
+        font: "$F_medium"
         halign: "center"
         position: "0,0"
         render: "Label"

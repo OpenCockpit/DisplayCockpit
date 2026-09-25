@@ -20,7 +20,7 @@ screen:
               cell:
                 itemHeight: 80
                 fonts:
-                  - "FdLcDLight;45"
+                  - "$F_medium"
                 fields:
                   - text:
                       position: "0,0"
