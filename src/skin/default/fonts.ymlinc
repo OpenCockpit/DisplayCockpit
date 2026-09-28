@@ -8,3 +8,19 @@ fonts:
         filename: "OpenSans-Regular.ttf"
         name: "FdLcDLight"
         scale: "100"
+
+- global:
+    name: "F_small"
+    value: ""
+- global:
+    name: "F_medium"
+    value: "FdLcdLight;45"
+- global:
+    name: "F_big"
+    value: "FdLcd;55"
+- global:
+    name: "F_bigger"
+    value: "FdLcd;60"
+- global:
+    name: "F_huge"
+    value: "FdLcd;80"
