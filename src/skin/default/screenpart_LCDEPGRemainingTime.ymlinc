@@ -1,5 +1,5 @@
 - widget:
-    font: "FdLcD;60"
+    font: "$F_bigger"
     halign: "left"
     position: "0,$screen_height-70"
     render: "Label"
@@ -15,7 +15,7 @@
           type: "ClockToText"
           text: "Format:%H:%M"
 - widget:
-    font: "FdLcD;60"
+    font: "$F_bigger"
     halign: "right"
     position: "198,$screen_height-70"
     render: "Label"

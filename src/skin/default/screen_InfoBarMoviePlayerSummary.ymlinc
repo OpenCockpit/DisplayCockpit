@@ -6,7 +6,7 @@ screen:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
     - widget:
-        font: "FdLcD;55"
+        font: "$F_big"
         halign: "center"
         position: "0,0"
         render: "Label"
@@ -22,7 +22,7 @@ screen:
     - xmlinc:
         file: "screenpart_LCDInfoBarMovieProgress.ymlinc"
     - widget:
-        font: "FdLcD;60"
+        font: "$F_bigger"
         halign: "left"
         position: "0,$screen_height-70"
         render: "Label"
@@ -35,7 +35,7 @@ screen:
               type: "COCServicePosition"
               text: "EndTime,ShowNoSeconds"
     - widget:
-        font: "FdLcD;60"
+        font: "$F_bigger"
         halign: "right"
         position: "230,$screen_height-70"
         render: "Label"

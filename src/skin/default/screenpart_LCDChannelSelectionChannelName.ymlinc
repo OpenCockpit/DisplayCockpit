@@ -1,5 +1,5 @@
 - widget:
-    font: "FdLcD;55"
+    font: "$F_big"
     halign: "center"
     options: "movetype=running,startpoint=0,direction=left,steptime=80,repeat=3,always=0,oneshot=1,startdelay=6000,wrap"
     position: "0,0"

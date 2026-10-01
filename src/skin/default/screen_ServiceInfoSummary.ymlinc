@@ -10,6 +10,6 @@ screen:
         noWrap: "1"
         position: "0,0"
         render: "Label"
-        size: "$screen_width,$screen_height"
+        size: "$screen_width,$screen_height-25"
         source: "info"
         transparent: "1"

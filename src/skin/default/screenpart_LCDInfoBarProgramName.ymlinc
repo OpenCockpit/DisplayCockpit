@@ -1,5 +1,5 @@
 - widget:
-    font: "FdLcD;55"
+    font: "$F_big"
     halign: "center"
     position: "0,0"
     render: "Label"

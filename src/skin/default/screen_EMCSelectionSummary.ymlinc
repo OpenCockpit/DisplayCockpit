@@ -6,7 +6,7 @@ screen:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
     - widget:
-        font: "FdLcD;45"
+        font: "$F_medium"
         halign: "center"
         position: "0,0"
         render: "Label"
@@ -20,7 +20,7 @@ screen:
               type: "ServiceName"
               text: "Name"
     - widget:
-        font: "FdLcD;60"
+        font: "$F_bigger"
         halign: "left"
         position: "0,$screen_height-70"
         render: "Label"
@@ -33,7 +33,7 @@ screen:
               type: "COCMovieInfo"
               text: "FileSize"
     - widget:
-        font: "FdLcD;60"
+        font: "$F_bigger"
         halign: "right"
         position: "300,$screen_height-70"
         render: "Label"

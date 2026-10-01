@@ -4,7 +4,7 @@ screen:
   resolution: "396,240"
   children:
     - widget:
-        font: "FdLcD;120"
+        font: "$F_giant"
         halign: "center"
         position: "0,0"
         render: "Label"

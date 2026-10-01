@@ -6,7 +6,7 @@ screen:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
     - widget:
-        font: "FdLcD;55"
+        font: "$F_big"
         halign: "center"
         noWrap: "1"
         position: "0,0"
@@ -16,7 +16,7 @@ screen:
         transparent: "1"
         valign: "center"
     - widget:
-        font: "FdLcDLight;30"
+        font: "$F_small"
         halign: "center"
         position: "0,65"
         render: "Label"
@@ -25,7 +25,7 @@ screen:
         transparent: "1"
         valign: "center"
     - widget:
-        font: "FdLcDLight;30"
+        font: "$F_small"
         halign: "center"
         position: "0,105"
         render: "Label"
@@ -34,7 +34,7 @@ screen:
         transparent: "1"
         valign: "center"
     - widget:
-        font: "FdLcDLight;30"
+        font: "$F_small"
         halign: "center"
         position: "0,145"
         render: "Label"
@@ -43,7 +43,7 @@ screen:
         transparent: "1"
         valign: "center"
     - widget:
-        font: "FdLcDLight;30"
+        font: "$F_small"
         halign: "center"
         position: "0,185"
         render: "Label"
