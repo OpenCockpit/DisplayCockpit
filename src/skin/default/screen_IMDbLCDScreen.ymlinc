@@ -9,6 +9,6 @@ screen:
         font: "$F_medium"
         halign: "center"
         position: "0,0"
-        size: "$screen_width,$screen_height"
+        size: "$screen_width-4,$screen_height"
         text: "IMDB Search"
         valign: "center"

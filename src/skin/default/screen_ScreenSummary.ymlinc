@@ -10,6 +10,6 @@ screen:
         halign: "center"
         position: "0,0"
         render: "Label"
-        size: "$screen_width,$screen_height-25"
+        size: "$screen_width-4,$screen_height-25"
         source: "Title"
         transparent: "1"

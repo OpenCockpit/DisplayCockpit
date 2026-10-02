@@ -12,6 +12,6 @@ screen:
         halign: "center"
         position: "0,65"
         render: "Label"
-        size: "$screen_width,175"
+        size: "$screen_width-4,175"
         source: "selected"
         transparent: "1"

@@ -19,7 +19,7 @@
     halign: "right"
     position: "198,$screen_height-70"
     render: "Label"
-    size: "197,70"
+    size: "194,70"
     source: "parent.Event"
     transparent: "1"
     valign: "center"

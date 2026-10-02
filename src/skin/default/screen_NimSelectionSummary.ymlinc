@@ -11,7 +11,7 @@ screen:
         position: "0,65"
         render: "Listbox"
         scrollbarMode: "showNever"
-        size: "$screen_width,160"
+        size: "$screen_width-4,160"
         source: "parent.nimlist"
         transparent: "1"
         children:
