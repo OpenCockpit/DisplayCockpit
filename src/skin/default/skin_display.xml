@@ -80,23 +80,21 @@
 		</widget>
 	</screen>
 	<screen name="EPGSelectionMultiSummary" position="fill" resolution="396,240">
-		<screen name="GraphicalEPGPIGSummary" position="fill" resolution="396,240">
-			<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-			<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,130" source="parent.Service" transparent="1" valign="center" zPosition="2">
-				<convert type="ServiceName">Name</convert>
-			</widget>
-			<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
-				<convert type="EventTime">Progress</convert>
-			</widget>
-			<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
-				<convert type="EventTime">StartTime</convert>
-				<convert type="ClockToText">Format:%H:%M</convert>
-			</widget>
-			<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
-				<convert type="EventTime">Remaining</convert>
-				<convert type="RemainingToText">VFDOnlyMinutes</convert>
-			</widget>
-		</screen>
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,130" source="parent.Service" transparent="1" valign="center" zPosition="2">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+		<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
+			<convert type="EventTime">Remaining</convert>
+			<convert type="RemainingToText">VFDOnlyMinutes</convert>
+		</widget>
 	</screen>
 	<screen name="EPGSelectionSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
@@ -126,23 +124,21 @@
 		<widget font="FdLcD;45" position="0,65" render="Label" size="392,175" source="parent.summary_description" transparent="1"/>
 	</screen>
 	<screen name="GraphicalEPGPIGSummary" position="fill" resolution="396,240">
-		<screen name="GraphicalEPGPIGSummary" position="fill" resolution="396,240">
-			<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-			<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,130" source="parent.Service" transparent="1" valign="center" zPosition="2">
-				<convert type="ServiceName">Name</convert>
-			</widget>
-			<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
-				<convert type="EventTime">Progress</convert>
-			</widget>
-			<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
-				<convert type="EventTime">StartTime</convert>
-				<convert type="ClockToText">Format:%H:%M</convert>
-			</widget>
-			<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
-				<convert type="EventTime">Remaining</convert>
-				<convert type="RemainingToText">VFDOnlyMinutes</convert>
-			</widget>
-		</screen>
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,130" source="parent.Service" transparent="1" valign="center" zPosition="2">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+		<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
+			<convert type="EventTime">Remaining</convert>
+			<convert type="RemainingToText">VFDOnlyMinutes</convert>
+		</widget>
 	</screen>
 	<screen name="GraphicalEPGSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
@@ -162,23 +158,21 @@
 		</widget>
 	</screen>
 	<screen name="GraphicalInfoBarEPGSummary" position="fill" resolution="396,240">
-		<screen name="GraphicalEPGPIGSummary" position="fill" resolution="396,240">
-			<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-			<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,130" source="parent.Service" transparent="1" valign="center" zPosition="2">
-				<convert type="ServiceName">Name</convert>
-			</widget>
-			<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
-				<convert type="EventTime">Progress</convert>
-			</widget>
-			<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
-				<convert type="EventTime">StartTime</convert>
-				<convert type="ClockToText">Format:%H:%M</convert>
-			</widget>
-			<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
-				<convert type="EventTime">Remaining</convert>
-				<convert type="RemainingToText">VFDOnlyMinutes</convert>
-			</widget>
-		</screen>
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,130" source="parent.Service" transparent="1" valign="center" zPosition="2">
+			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget borderColor="FdLcdAmber" borderWidth="2" position="0,140" render="Progress" size="392,20" source="parent.Event" transparent="1" zPosition="2">
+			<convert type="EventTime">Progress</convert>
+		</widget>
+		<widget font="FdLcD;60" halign="left" position="0,170" render="Label" size="198,70" source="parent.Event" transparent="1" valign="center">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText">Format:%H:%M</convert>
+		</widget>
+		<widget font="FdLcD;60" halign="right" position="198,170" render="Label" size="194,70" source="parent.Event" transparent="1" valign="center">
+			<convert type="EventTime">Remaining</convert>
+			<convert type="RemainingToText">VFDOnlyMinutes</convert>
+		</widget>
 	</screen>
 	<screen name="IMDbLCDScreen" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
@@ -259,25 +253,19 @@
 		</widget>
 	</screen>
 	<screen name="MessageBoxSimpleSummary" position="fill" resolution="396,240">
-		<screen name="MessageBoxSummary" position="fill" resolution="396,240">
-			<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-			<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
-			<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" zPosition="2"/>
-		</screen>
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="MessageBoxSummary" position="fill" resolution="396,240">
-		<screen name="MessageBoxSummary" position="fill" resolution="396,240">
-			<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-			<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
-			<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" zPosition="2"/>
-		</screen>
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="MessageBoxWizardSummary" position="fill" resolution="396,240">
-		<screen name="MessageBoxSummary" position="fill" resolution="396,240">
-			<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-			<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
-			<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" zPosition="2"/>
-		</screen>
+		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
+		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" zPosition="2"/>
 	</screen>
 	<screen name="MovieContextMenuSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
