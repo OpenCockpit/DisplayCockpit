@@ -1,4 +1,4 @@
-# DisplayCockpit Gallery
+# DisplaySkinCockpit Gallery
 
 Screens from `skin_display.xml`, at the panel's native 396x240 resolution.
 
