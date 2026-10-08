@@ -254,18 +254,18 @@
 	</screen>
 	<screen name="MessageBoxSimpleSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
-		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" zPosition="2"/>
+		<widget font="FdLcD;30" halign="center" position="2,2" render="Label" size="392,176" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" noWrap="1" position="2,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" valign="center" zPosition="2"/>
 	</screen>
 	<screen name="MessageBoxSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
-		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" zPosition="2"/>
+		<widget font="FdLcD;30" halign="center" position="2,2" render="Label" size="392,176" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" noWrap="1" position="2,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" valign="center" zPosition="2"/>
 	</screen>
 	<screen name="MessageBoxWizardSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>
-		<widget font="FdLcD;55" halign="center" position="0,0" render="Label" size="392,180" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
-		<widget font="FdLcD;30" halign="center" position="0,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" zPosition="2"/>
+		<widget font="FdLcD;30" halign="center" position="2,2" render="Label" size="392,176" source="parent.Text" transparent="1" valign="center" zPosition="2"/>
+		<widget font="FdLcD;45" halign="center" noWrap="1" position="2,180" render="Label" size="392,60" source="parent.selectedChoice" transparent="1" valign="center" zPosition="2"/>
 	</screen>
 	<screen name="MovieContextMenuSummary" position="fill" resolution="396,240">
 		<ePixmap alphatest="on" pixmap="~/display_bg.png" position="0,0" size="396,240" zPosition="-10"/>

@@ -5,22 +5,26 @@ screen:
   children:
     - xmlinc:
         file: "screenpart_LCDBackground.ymlinc"
+    # the message: small enough for a whole sentence (about 25 characters a line, 5 lines), wrapped at words
     - widget:
-        font: "$F_big"
+        font: "$F_small"
         halign: "center"
-        position: "0,0"
+        position: "2,2"
         render: "Label"
-        size: "$screen_width-4,180"
+        size: "$screen_width-4,176"
         source: "parent.Text"
         transparent: "1"
         valign: "center"
         zPosition: "2"
+    # the selected choice (Yes / No / ...), one line below
     - widget:
-        font: "$F_small"
+        font: "$F_medium"
         halign: "center"
-        position: "0,180"
+        noWrap: "1"
+        position: "2,180"
         render: "Label"
         size: "$screen_width-4,60"
         source: "parent.selectedChoice"
         transparent: "1"
+        valign: "center"
         zPosition: "2"
